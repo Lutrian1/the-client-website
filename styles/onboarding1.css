@@ -1,1 +1,77 @@
 /* CSS */
+html {
+    font-family: "Poppins", sans-serif;
+    background-color: #599AE7;
+    color: white;
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0em 1em 1em 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    align-items: center;
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+
+        img {
+            background-image: radial-gradient(rgba(0, 0, 0, .2) 10em, transparent 0)
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    margin-top: 1em;
+    font-size: 2em;
+    font-weight: 600;
+    /* 400 is standaar weight (Niet bold)*/
+    text-align: center;
+}
+
+p {
+    font-size: 1em;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin: auto auto 1em;
+    width: 80%;
+
+    .Button {
+        font-size: 1em;
+        background-color: #4A82C3;
+        display: block;
+        /* padding-top: 1em; */
+        /* padding-bottom: 1em; */
+        padding-block: 1em;
+        /* is hetzelfde als de 2 lijnen hierbpven */
+        width: 100%;
+        border-radius: 1em;
+        margin-bottom: 4em;
+    }
+}
+
+.Skip {
+    padding-top: 2em;
+    margin: auto;
+    font-size: 1em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media only screen and (min-width: 500px) {
+    background-image: ;
+}
