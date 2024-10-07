@@ -4,40 +4,16 @@ html {
     background-color: #599AE7;
     color: white;
     height: 100%;
+        @media only screen and (min-width: 500px) {
+            background-image: image();
+        }
 }
-
 body{
     height: 100%;
     margin: 0em 1em 1em 1em;
     display: flex;
     flex-direction: column;
 }
-
-.stipjes{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 1em;
-}
-
-.stip1 {
-    height: 10px;
-    width: 10px;
-    border-radius: 50%;
-    border: solid;
-    border-color: white;
-    background-color: white;
-}
-
-.stip2, .stip3{
-    height: 10px;
-    width: 10px;
-    margin-left: 1em;
-    border: solid;
-    border-radius: 50%;
-    border-color: white;
-}
-
 main {
     align-items: center;
     section {
@@ -51,24 +27,49 @@ main {
         }
     }
 }
-
 a {
     text-decoration: none;
     color: white;
 }
-
+.Skip {
+    padding-top: 2em;
+    margin: auto;
+    font-size: 1em;
+    display: flex;
+    justify-content: flex-end;
+}
+.stipjes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1em;
+}
+.stip1 {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: solid;
+    border-color: white;
+    background-color: white;
+}
+.stip2, .stip3{
+    height: 10px;
+    width: 10px;
+    margin-left: 1em;
+    border: solid;
+    border-radius: 50%;
+    border-color: white;
+}
 h1 {
     font-size: 1.875em;
     font-weight: 600;
     /* 400 is standaar weight (Niet bold)*/
     text-align: center;
 }
-
 p {
     font-size: 1em;
     text-align: center;
 }
-
 footer {
     text-align: center;
     margin: auto auto 1em;
@@ -86,16 +87,4 @@ footer {
         width: 100%;
         border-radius: 1em;
     }
-}
-
-.Skip {
-    padding-top: 2em;
-    margin: auto;
-    font-size: 1em;
-    display: flex;
-    justify-content: flex-end;
-}
-
-@media only screen and (min-width: 500px) {
-    background-image: ;
 }
