@@ -4,9 +4,6 @@ html {
     background-color: #599AE7;
     color: white;
     height: 100%;
-        @media only screen and (min-width: 500px) {
-            background-image: image();
-        }
 }
 body{
     height: 100%;
@@ -69,6 +66,14 @@ main {
         p {
             font-size: 1em;
             text-align: center;
+            @media only screen and (min-width: 500px) {
+                margin: auto 2em auto 2em;
+                font-size: 1.2em;
+            }
+            @media only screen and (min-width: 800px) {
+                margin: auto 5em auto 5em;
+                font-size: 1.5em;
+            }
         }
     }
 }
@@ -76,7 +81,11 @@ footer {
     text-align: center;
     margin: auto auto 1em;
     width: 80%;
-
+    display: flex;
+    justify-content: center;
+    @media only screen and (min-width: 500px) {
+        margin: auto;
+    }
     .Button {
         font-size: 1em; /* knop dikgedrukt zodat hij meer opvalt */
         font-weight: 700;
@@ -88,5 +97,8 @@ footer {
         /* is hetzelfde als de 2 lijnen hierbpven */
         width: 100%;
         border-radius: 1em;
+        @media only screen and (min-width: 500px) {
+            max-width: 60%;
+        }
     }
 }
