@@ -1,7 +1,7 @@
 # The Client - Website (Tumi Mundo)
 
 ## Inhoudsopgave: 
-* Inleiding 
+#### [- Inleiding](https://github.com/Lutrian1/the-client-website?tab=readme-ov-file##Inleiding)
 * Beschrijving
 * Kenmerken
 * Bronnen
