@@ -39,7 +39,11 @@ Ik vond alleen dat de achtergrond wat te druk zou zijn voor een start scherm, du
  Voor Responsivness veranderd de tekst grootte voornamelijk. Ook de knop word qua grootte even aangepast. 
 
 ## Kenmerken
-Voor HTML worden meerdere paginas gebruikt en 1 CSS bestand. 1 CSS bestand behoud de vormgeving op alle sites, alleen de content binnen de bestanden worden veranderen, vandaar de 3 html bestanden. 
+* Simpele kleuren, niet te complex.
+* 3 Pagina's Html (Allemaal andere content).
+* Stipjes dat aangeven welke pagina je je bevind.
+* Gebruik Flexbox.
+* 1 Css Bestand.
 
 ## Bronnen
 
