@@ -4,7 +4,7 @@
 * #### [- Inleiding](https://github.com/Lutrian1/the-client-website/blob/main/README.md#inleiding)
 * #### [- Beschrijving](https://github.com/Lutrian1/the-client-website/blob/main/README.md#beschrijving)
 * #### [- Kenmerken](https://github.com/Lutrian1/the-client-website/blob/main/README.md#inleiding)
-* #### [- Bronnen](https://github.com/Lutrian1/the-client-website/edit/main/README.md#Bronnen)
+* #### [- Bronnen](https://github.com/Lutrian1/the-client-website/blob/main/README.md#inleiding)
 
 ## Inleiding
 
