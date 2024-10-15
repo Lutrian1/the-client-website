@@ -46,7 +46,7 @@ Ik vond alleen dat de achtergrond wat te druk zou zijn voor een start scherm, du
 
 ## Bronnen
 
-Site: https://github.com/fdnd-agency/tumi-mundo
+Figma: https://github.com/fdnd-agency/tumi-mundo
 
 Link naar site: https://lutrian1.github.io/the-client-website/
 
